@@ -11,7 +11,7 @@ VIPERArchitectureGenerator provides files you needed in viper architecture with 
   - Paste the folder in repo. 
  
 # USAGE
- - Try to add new file with Cmd + N and type VIPER in search bar
+ - Try to add new file with Cmd + N and type VIPER in search bar in XCode
  - Enter module name 
  - WHOLAAA!!! :smile:
  - Enjoy
