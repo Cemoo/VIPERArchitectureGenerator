@@ -2,7 +2,7 @@
 
 import UIKit
 
-class ___FILEBASENAMEASIDENTIFIER___: ___FILEBASENAMEASIDENTIFIER___Protocol {
+final class ___FILEBASENAMEASIDENTIFIER___: ___FILEBASENAMEASIDENTIFIER___Protocol {
     
     private let interactor: ___VARIABLE_productName:identifier___InteractorProtocol!
     private let router: ___VARIABLE_productName:identifier___RouterProtocol!
