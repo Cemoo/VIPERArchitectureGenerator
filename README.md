@@ -1,4 +1,4 @@
-# VIPERArchitectureGenerator
+# VIPERArchitectureGenerator :fire:
 
 VIPERArchitectureGenerator provides files you needed in viper architecture with initialization codes and protocols. 
 
@@ -13,5 +13,5 @@ VIPERArchitectureGenerator provides files you needed in viper architecture with 
 # USAGE
  - Try to add new file with Cmd + N and type VIPER in search bar
  - Enter module name 
- - WHOLAAA!!!
- - Enjoy:)
+ - WHOLAAA!!! :smile:
+ - Enjoy
