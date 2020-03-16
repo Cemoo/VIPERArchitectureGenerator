@@ -1,7 +1,5 @@
 //___FILEHEADER___
 
-import UIKit
-
 //PRESENTER
 protocol ___VARIABLE_productName:identifier___PresenterProtocol: class  {
     
