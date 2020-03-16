@@ -9,7 +9,7 @@ struct ___FILEBASENAMEASIDENTIFIER___ {
         let interactor = ___VARIABLE_productName:identifier___Interactor()
         let presenter = ___VARIABLE_productName:identifier___Presenter(destinationVC,router,interactor)
         destinationVC.presenter = presenter
-        return destinationVC()
+        return destinationVC
     }
 }
 
