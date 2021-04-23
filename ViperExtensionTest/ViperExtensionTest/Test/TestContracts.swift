@@ -2,7 +2,7 @@
 //  TestContracts.swift
 //  ViperExtensionTest
 //
-//  Created by Cemal BAYRI on 21.04.2021.
+//  Created by Cemal BAYRI on 23.04.2021.
 //
 
 //PRESENTER
@@ -18,7 +18,7 @@ enum TestPresenterOutputs {
 /*------------------------*/
 //INTERACTOR
 protocol TestInteractorProtocol: class  {
-    var delegate: TestInteractorDelegate? {get set}
+    var delegate: TestInteractorDelegate! {get set}
 }
 
 protocol TestInteractorDelegate: class  {
@@ -30,9 +30,11 @@ enum TestInteractorOutputs {
     case sendData
 }
 
+
 /*------------------------*/
 //ROUTER
 protocol TestRouterProtocol: class {
+    var view: TestViewProtocol? { get set }
     func navigate(_ route: TestRoutes)
 }
 

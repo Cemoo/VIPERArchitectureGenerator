@@ -3,7 +3,16 @@
 import UIKit
 
 class ___FILEBASENAMEASIDENTIFIER___: UIViewController, ___VARIABLE_productName:identifier___ViewProtocol {
-    var presenter: ___VARIABLE_productName:identifier___PresenterProtocol!
+    let presenter: ___VARIABLE_productName:identifier___PresenterProtocol
+    
+    init(presenter: ___VARIABLE_productName:identifier___PresenterProtocol) {
+        self.presenter = presenter
+        super.init(nibName: "", bundle: nil)
+    }
+    
+    required init?(coder: NSCoder) {
+        return nil
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

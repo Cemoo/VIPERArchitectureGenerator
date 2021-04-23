@@ -13,12 +13,12 @@
 		D0163F372630C5150055FAC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0163F352630C5150055FAC9 /* Main.storyboard */; };
 		D0163F392630C5180055FAC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0163F382630C5180055FAC9 /* Assets.xcassets */; };
 		D0163F3C2630C5180055FAC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0163F3A2630C5180055FAC9 /* LaunchScreen.storyboard */; };
-		D0163F4B2630C52A0055FAC9 /* TestPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0163F452630C52A0055FAC9 /* TestPresenter.swift */; };
-		D0163F4C2630C52A0055FAC9 /* TestRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0163F462630C52A0055FAC9 /* TestRouter.swift */; };
-		D0163F4D2630C52A0055FAC9 /* TestContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0163F472630C52A0055FAC9 /* TestContracts.swift */; };
-		D0163F4E2630C52A0055FAC9 /* TestInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0163F482630C52A0055FAC9 /* TestInteractor.swift */; };
-		D0163F4F2630C52A0055FAC9 /* TestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0163F492630C52A0055FAC9 /* TestVC.swift */; };
-		D0163F502630C52A0055FAC9 /* TestPageBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0163F4A2630C52A0055FAC9 /* TestPageBuilder.swift */; };
+		D062A4AB2632DA9A0099298D /* TestPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D062A4A52632DA9A0099298D /* TestPresenter.swift */; };
+		D062A4AC2632DA9A0099298D /* TestRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D062A4A62632DA9A0099298D /* TestRouter.swift */; };
+		D062A4AD2632DA9A0099298D /* TestContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = D062A4A72632DA9A0099298D /* TestContracts.swift */; };
+		D062A4AE2632DA9A0099298D /* TestInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D062A4A82632DA9A0099298D /* TestInteractor.swift */; };
+		D062A4AF2632DA9A0099298D /* TestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D062A4A92632DA9A0099298D /* TestVC.swift */; };
+		D062A4B02632DA9A0099298D /* TestPageBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D062A4AA2632DA9A0099298D /* TestPageBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,12 +30,12 @@
 		D0163F382630C5180055FAC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0163F3B2630C5180055FAC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0163F3D2630C5180055FAC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D0163F452630C52A0055FAC9 /* TestPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPresenter.swift; sourceTree = "<group>"; };
-		D0163F462630C52A0055FAC9 /* TestRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRouter.swift; sourceTree = "<group>"; };
-		D0163F472630C52A0055FAC9 /* TestContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestContracts.swift; sourceTree = "<group>"; };
-		D0163F482630C52A0055FAC9 /* TestInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestInteractor.swift; sourceTree = "<group>"; };
-		D0163F492630C52A0055FAC9 /* TestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVC.swift; sourceTree = "<group>"; };
-		D0163F4A2630C52A0055FAC9 /* TestPageBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPageBuilder.swift; sourceTree = "<group>"; };
+		D062A4A52632DA9A0099298D /* TestPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPresenter.swift; sourceTree = "<group>"; };
+		D062A4A62632DA9A0099298D /* TestRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRouter.swift; sourceTree = "<group>"; };
+		D062A4A72632DA9A0099298D /* TestContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestContracts.swift; sourceTree = "<group>"; };
+		D062A4A82632DA9A0099298D /* TestInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestInteractor.swift; sourceTree = "<group>"; };
+		D062A4A92632DA9A0099298D /* TestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVC.swift; sourceTree = "<group>"; };
+		D062A4AA2632DA9A0099298D /* TestPageBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPageBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +68,7 @@
 		D0163F2E2630C5150055FAC9 /* ViperExtensionTest */ = {
 			isa = PBXGroup;
 			children = (
-				D0163F442630C5200055FAC9 /* Test */,
+				D062A4A42632DA8A0099298D /* Test */,
 				D0163F2F2630C5150055FAC9 /* AppDelegate.swift */,
 				D0163F312630C5150055FAC9 /* SceneDelegate.swift */,
 				D0163F332630C5150055FAC9 /* ViewController.swift */,
@@ -80,15 +80,15 @@
 			path = ViperExtensionTest;
 			sourceTree = "<group>";
 		};
-		D0163F442630C5200055FAC9 /* Test */ = {
+		D062A4A42632DA8A0099298D /* Test */ = {
 			isa = PBXGroup;
 			children = (
-				D0163F452630C52A0055FAC9 /* TestPresenter.swift */,
-				D0163F462630C52A0055FAC9 /* TestRouter.swift */,
-				D0163F472630C52A0055FAC9 /* TestContracts.swift */,
-				D0163F482630C52A0055FAC9 /* TestInteractor.swift */,
-				D0163F492630C52A0055FAC9 /* TestVC.swift */,
-				D0163F4A2630C52A0055FAC9 /* TestPageBuilder.swift */,
+				D062A4A52632DA9A0099298D /* TestPresenter.swift */,
+				D062A4A62632DA9A0099298D /* TestRouter.swift */,
+				D062A4A72632DA9A0099298D /* TestContracts.swift */,
+				D062A4A82632DA9A0099298D /* TestInteractor.swift */,
+				D062A4A92632DA9A0099298D /* TestVC.swift */,
+				D062A4AA2632DA9A0099298D /* TestPageBuilder.swift */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -163,15 +163,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0163F4F2630C52A0055FAC9 /* TestVC.swift in Sources */,
+				D062A4AF2632DA9A0099298D /* TestVC.swift in Sources */,
 				D0163F342630C5150055FAC9 /* ViewController.swift in Sources */,
-				D0163F4C2630C52A0055FAC9 /* TestRouter.swift in Sources */,
+				D062A4AC2632DA9A0099298D /* TestRouter.swift in Sources */,
 				D0163F302630C5150055FAC9 /* AppDelegate.swift in Sources */,
-				D0163F4E2630C52A0055FAC9 /* TestInteractor.swift in Sources */,
-				D0163F4B2630C52A0055FAC9 /* TestPresenter.swift in Sources */,
-				D0163F502630C52A0055FAC9 /* TestPageBuilder.swift in Sources */,
+				D062A4AE2632DA9A0099298D /* TestInteractor.swift in Sources */,
+				D062A4AB2632DA9A0099298D /* TestPresenter.swift in Sources */,
+				D062A4B02632DA9A0099298D /* TestPageBuilder.swift in Sources */,
 				D0163F322630C5150055FAC9 /* SceneDelegate.swift in Sources */,
-				D0163F4D2630C52A0055FAC9 /* TestContracts.swift in Sources */,
+				D062A4AD2632DA9A0099298D /* TestContracts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

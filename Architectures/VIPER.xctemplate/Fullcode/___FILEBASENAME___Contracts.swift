@@ -29,6 +29,7 @@ enum ___VARIABLE_productName:identifier___InteractorOutputs {
 /*------------------------*/
 //ROUTER
 protocol ___VARIABLE_productName:identifier___RouterProtocol: class {
+    var view: ___VARIABLE_productName:identifier___ViewProtocol? { get set }
     func navigate(_ route: ___VARIABLE_productName:identifier___Routes)
 }
 

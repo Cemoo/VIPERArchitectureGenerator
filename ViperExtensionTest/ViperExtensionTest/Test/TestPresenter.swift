@@ -2,17 +2,16 @@
 //  TestPresenter.swift
 //  ViperExtensionTest
 //
-//  Created by Cemal BAYRI on 21.04.2021.
+//  Created by Cemal BAYRI on 23.04.2021.
 //
 
 final class TestPresenter: TestPresenterProtocol {
     
-    private let interactor: TestInteractorProtocol
-    private let router: TestRouterProtocol
-    
+    private let interactor: TestInteractorProtocol!
+    private let router: TestRouterProtocol!
     weak var view: TestViewProtocol?
     
-    init(router: TestRouterProtocol, interactor: TestInteractorProtocol) {
+    init(_ router: TestRouterProtocol, _ interactor: TestInteractorProtocol) {
         self.router = router
         self.interactor = interactor
         
@@ -22,5 +21,6 @@ final class TestPresenter: TestPresenterProtocol {
 
 extension TestPresenter: TestInteractorDelegate {
     func handle(_ output: TestInteractorOutputs) {
+        
     }
 }

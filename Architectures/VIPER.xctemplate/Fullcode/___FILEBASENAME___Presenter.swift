@@ -4,10 +4,9 @@ final class ___FILEBASENAMEASIDENTIFIER___: ___FILEBASENAMEASIDENTIFIER___Protoc
     
     private let interactor: ___VARIABLE_productName:identifier___InteractorProtocol!
     private let router: ___VARIABLE_productName:identifier___RouterProtocol!
-    private let view: ___VARIABLE_productName:identifier___ViewProtocol!
+    weak var view: ___VARIABLE_productName:identifier___ViewProtocol?
     
-    init(_ view: ___VARIABLE_productName:identifier___ViewProtocol, _ router: ___VARIABLE_productName:identifier___RouterProtocol, _ interactor: ___VARIABLE_productName:identifier___InteractorProtocol) {
-        self.view = view
+    init(_ router: ___VARIABLE_productName:identifier___RouterProtocol, _ interactor: ___VARIABLE_productName:identifier___InteractorProtocol) {
         self.router = router
         self.interactor = interactor
         
