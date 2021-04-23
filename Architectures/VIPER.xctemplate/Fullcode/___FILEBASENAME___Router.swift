@@ -3,10 +3,10 @@
 import UIKit
 
 final class ___FILEBASENAMEASIDENTIFIER___: ___FILEBASENAMEASIDENTIFIER___Protocol {
-    unowned let vc: UIViewController!
+    var view: ___VARIABLE_productName:identifier___ViewProtocol?
     
-    init(_ view: UIViewController) {
-        self.vc = view
+    init() {
+        
     }
     
     func navigate(_ route: ___VARIABLE_productName:identifier___Routes) {
